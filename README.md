@@ -1,5 +1,5 @@
 # jide-oss
-Patched versions of the jide-oss Swing library.
+Patched versions of the [jide-oss Swing library](https://github.com/jidesoft/jide-oss/).
 
 ## Maven
 
