@@ -1,14 +1,7 @@
 # jide-oss
 Patched versions of the [jide-oss Swing library](https://github.com/jidesoft/jide-oss/).
 
-## Maven
+The following versions are available:
 
-Use the following dependency in your `pom.xml`:
+* [3.6.18.1](3.6.18.1)
 
-```xml
-    <dependency>
-      <groupId>com.github.fracpete</groupId>
-      <artifactId>jide-oss</artifactId>
-      <version>3.6.18.1</version>
-    </dependency>
-```
