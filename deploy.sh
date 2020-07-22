@@ -30,7 +30,7 @@ then
 fi
 
 cd $1
-mvn org.apache.maven.plugins:maven-gpg-plugin:1.4:sign-and-deploy-file \
+$HOME/programs/apache-maven-3.5.4/bin/mvn org.apache.maven.plugins:maven-gpg-plugin:1.4:sign-and-deploy-file \
       -Durl=https://oss.sonatype.org/service/local/staging/deploy/maven2/ \
       -DrepositoryId=sonatype-nexus-staging \
       -Dfile=./jide-oss-$1.jar \
